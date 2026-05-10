@@ -1,0 +1,34 @@
+# Secrets — NEVER commit
+.env
+*.env
+!.env.example
+
+# Credential / note files
+twilio_2FA_recovery_code.txt
+pnjs*.txt
+pip*install*.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+ENV/
+*.egg-info/
+
+# IDE / editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
